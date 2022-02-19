@@ -18,8 +18,8 @@ export class ToolbarComponent implements OnInit {
   }
 
   selectedMenu?: toolbar_menu;
-  onSelect(menus: toolbar_menu): void {
-    this.selectedMenu = menus;
+  onSelect(menu: toolbar_menu): void {
+    this.selectedMenu = menu;
   }
 
 }
