@@ -8,10 +8,23 @@
 }
 
 .example-icon{
+    color: rgb(117, 117, 124);
     border-width: 0px;
     border-radius: 4px;
     width: 70px;
     height: 38px;
     margin: 4px;
     background-color: whitesmoke;
+}
+.example-icon:hover{
+    color: rgb(117, 117, 124);
+    background-color: rgb(228, 247, 229);
+}
+
+.menu_item{
+    color: black;
+}
+.menu_item:hover{
+    color: rgb(117, 117, 124);
+    background-color: rgb(228, 247, 229);
 }

@@ -4,7 +4,9 @@
       <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item *ngFor="let menu of menus">
+      <button class="menu_item" mat-menu-item *ngFor="let menu of menus"
+        [class.selected]="menu === selectedMenu"
+        (click)="onSelect(menu)">
         <!-- <mat-icon>dialpad</mat-icon> -->
         <span>{{menu.item}}</span>
       </button>
