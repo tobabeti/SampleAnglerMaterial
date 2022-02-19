@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.mat-toolbar{
+    color: whitesmoke;
+    background-color: rgb(155, 204, 155);
+}
+
+.example-icon{
+    border-width: 0px;
+    border-radius: 4px;
+    width: 70px;
+    height: 38px;
+    margin: 4px;
+    background-color: whitesmoke;
+}
