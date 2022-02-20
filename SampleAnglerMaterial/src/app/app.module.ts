@@ -10,10 +10,17 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 
+import { ScreenHomeComponent } from './screen/screen-home/screen-home.component';
+import { ScreenAComponent } from './screen/screen-a/screen-a.component';
+import { ScreenBComponent } from './screen/screen-b/screen-b.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
+    ScreenHomeComponent,
+    ScreenAComponent,
+    ScreenBComponent,
   ],
   imports: [
     BrowserModule,
