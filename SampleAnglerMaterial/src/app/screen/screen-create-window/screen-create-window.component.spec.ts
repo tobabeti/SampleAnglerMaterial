@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScreenAComponent } from './screen-a.component';
+import { ScreenCreateWindowComponent } from './screen-create-window.component';
 
-describe('ScreenAComponent', () => {
-  let component: ScreenAComponent;
-  let fixture: ComponentFixture<ScreenAComponent>;
+describe('ScreenCreateWindowComponent', () => {
+  let component: ScreenCreateWindowComponent;
+  let fixture: ComponentFixture<ScreenCreateWindowComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ScreenAComponent ]
+      declarations: [ ScreenCreateWindowComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ScreenAComponent);
+    fixture = TestBed.createComponent(ScreenCreateWindowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

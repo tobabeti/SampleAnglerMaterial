@@ -11,16 +11,16 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 
 import { ScreenHomeComponent } from './screen/screen-home/screen-home.component';
-import { ScreenAComponent } from './screen/screen-a/screen-a.component';
-import { ScreenBComponent } from './screen/screen-b/screen-b.component';
+import { ScreenCreateServiceComponent } from './screen/screen-create-service/screen-create-service.component';
+import { ScreenCreateWindowComponent } from './screen/screen-create-window/screen-create-window.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     ScreenHomeComponent,
-    ScreenAComponent,
-    ScreenBComponent,
+    ScreenCreateServiceComponent,
+    ScreenCreateWindowComponent,
   ],
   imports: [
     BrowserModule,
